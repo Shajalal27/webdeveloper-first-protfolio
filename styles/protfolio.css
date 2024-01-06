@@ -6,8 +6,28 @@ body{
 .text-orange{
     color: #FD6E0A;
 }
-
-
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    
+}
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-descriptin{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    
+}
 
 /* nav related styles */
 nav{
@@ -34,16 +54,7 @@ nav a{
     color: #474747;
 
 }
-.btn-primary{
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
-    
-}
+
 /* Header related style */
 .header{
     background-color: #FFF8F3;
@@ -80,4 +91,34 @@ nav a{
     font-weight: 400;
     line-height: 30px; 
     margin-bottom: 30px;
+}
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About Section */
+.about{
+    padding:130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    line-height: 28px;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    line-height: 5px;
+}
+.info-title{
+    font-weight: 400;
+    color: #757575;
+    font-size: 20px;
+}
+.info-description{
+    font-weight: 800;
+    font-size: 20px;
 }

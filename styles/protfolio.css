@@ -240,11 +240,20 @@ footer{
     
 }
 
-@media screen and (min-width:576px) and (max-width:980px) {
+@media screen and (min-width:576px) and (max-width:992px) {
     footer{
         padding: 20px;
     }
     .about-info-container{
         flex-direction: column;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1043px){
+    .btn-primary{
+        margin-bottom: 15px;
     }
 }

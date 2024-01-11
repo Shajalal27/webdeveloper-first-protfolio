@@ -199,3 +199,52 @@ footer{
     width: 100%;
     font-size: 16px;
 }
+
+/* Responsive device */
+@media screen and (max-width:576px) {
+   .header{
+    background-image: none;
+   }
+   .banner{
+    flex-direction: column;
+    padding: 20px;
+   }
+   .banner .profile-pic{
+    width: 100%;
+   }
+    .header nav{
+        flex-direction: column;
+    }
+   nav > ul{
+    flex-direction: column;
+   }
+   .skills-container, .resume-container, .about-info-container{
+        flex-direction: column;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+     #what-i-do-description, .about{
+        padding: 20px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:980px) {
+    footer{
+        padding: 20px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+}
